@@ -21,8 +21,9 @@ a{
 .header .header_c h1{
     height: 30px;
     width: 40px;
-    padding: 0 15px;
+    padding-left: 4px;
     float: left;
+    color: rgba(210,210,210,0.9);
 }
 
 .header .header_c .header_nav{
@@ -30,8 +31,16 @@ a{
 }
 .header .header_c .header_nav ul li{
     float: left;
+    padding-left: 8px;
+    color: rgba(210,210,210,0.9);
 }
 .header .header_c .header_nav ul li a:hover{
+    color: white;
     display:block;
-    padding: 0 28px;
+}
+.header .header_c .all_pro{
+    width: 168px;
+    float: right;
+    margin: 0 10px;
+    
 }
