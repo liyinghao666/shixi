@@ -39,8 +39,48 @@ a{
     display:block;
 }
 .header .header_c .all_pro{
-    width: 168px;
+    width: 100px;
     float: right;
-    margin: 0 10px;
-    
+    margin: 0 50px;
+    color: rgba(210,210,210,0.9);
+}
+.header .header_c .all_pro .app{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 68px;
+    background: #fff;
+    display: none;
+}
+.header .header_c .all_pro:hover .app{
+    display: block;
+}
+.header .header_c .all_pro .app .pro_inner{
+    padding-left: 1025px;    
+}
+.header .header_c .login{
+    float: right;
+    margin-right: 15px;
+    color: rgba(210,210,210,0.9);
+}
+.header .header_c .login a:hover{
+    color: white;
+    display:block;
+}
+/* banner开始 */
+.banner{
+    padding-top: 30px;
+    height: 150px;
+    position: relative;
+    top: 30px;
+    background-color: blanchedalmond;
+}
+.banner .banner_c{
+    width: 1140px;
+    margin: 0 auto;
+}
+.banner .banner_c a{
+    position: relative;
+    top: -15px;
+    left: 30px;
 }
