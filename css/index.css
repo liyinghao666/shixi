@@ -7,6 +7,11 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+
+
+
+
 /* header */
 .header{
     height: 30px;
@@ -17,6 +22,7 @@ a{
     position: fixed;
     background-color: rgba(5,5,5,0.5);
     box-shadow: 2px 0px 2px 2px rgba(3,3,3,0.3);
+    z-index: 2;
 }
 .header .header_c h1{
     height: 30px;
@@ -45,7 +51,7 @@ a{
     color: rgba(210,210,210,0.9);
 }
 .header .header_c .all_pro .app{
-    width: 50%;
+    width: 0%;
     position: absolute;
     left: 0;
     top: 68px;
@@ -53,10 +59,11 @@ a{
     display: none;
 }
 .header .header_c .all_pro:hover .app{
-    display: block;
+    display: inline;
 }
 .header .header_c .all_pro .app .pro_inner{
-    padding-left: 1025px;    
+    margin-top: -37px;
+    margin-left: 1024px; 
 }
 .header .header_c .login{
     float: right;
@@ -67,13 +74,20 @@ a{
     color: white;
     display:block;
 }
+
+
+
+
+
 /* banner开始 */
 .banner{
     padding-top: 30px;
-    height: 150px;
+    height: 80px;
     position: relative;
     top: 30px;
     background-color: blanchedalmond;
+    border-bottom: 1px solid rgba(210,210,210,0.9);
+    z-index: 1;
 }
 .banner .banner_c{
     width: 1140px;
@@ -83,4 +97,39 @@ a{
     position: relative;
     top: -15px;
     left: 30px;
+}
+.banner .banner_c p input{
+    position: relative;
+    top: -85px;
+    left: 200px;
+    width: 450px;
+    height: 40px;
+}
+.banner .banner_c p a{
+    position: relative;
+    left: 200px;
+    top: -70px;
+}
+.banner2{
+    margin-top: 30px;
+    height: 40px;
+    background-color: bisque;
+}
+.banner2_c{
+    margin-left: 100px;
+    float: left;
+    padding-left: 8px;
+    color: rgba(0,0,0,0.9);
+    line-height: 40px;
+}
+.banner2_c ul li{
+    float: left;
+}
+.banner2_cc{
+    float: left;
+    margin-left: 8px;
+}
+.banner2_cc a:hover{
+    color: wheat;
+    display: block;
 }
